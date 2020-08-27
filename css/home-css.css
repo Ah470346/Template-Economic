@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+html , body {
+	height: 3000px;
+	font-family: Arial , sans-serif;
+	font-size: 16px;
+}
+/* -------------------------------------------------------header */
+.header {
+	height: 90px;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+/* ------------------------------------ */
+.header .logo {
+	background-color: red;
+	flex-grow: 1;
+}
+
+.header .logo img {
+	height: 50px;
+}
+
+.header .menu {
+	height: 100%;
+	background-color: blue;
+	flex-grow: 2;
+}
+
+.header .profile {
+	background-color: yellow;
+	flex-grow: 1;
+}
+.btn-gototop {
+	position: fixed;
+	z-index: 1;
+	bottom: 30px;
+	right: 30px;
+	background: #FF0000;
+}
