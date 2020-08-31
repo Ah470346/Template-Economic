@@ -2,21 +2,27 @@
 	box-sizing: border-box;
 }
 html , body {
+	margin: 0;
 	height: 3000px;
 	font-family: Arial , sans-serif;
 	font-size: 16px;
 }
 /* -------------------------------------------------------header */
 .header {
+	width: 100%;
 	height: 90px;
 	display: flex;
 	flex-direction: row;
 	align-items: stretch;
+	overflow: hidden;
 }
 /* ------------------------------------ */
 .header .logo {
-	background-color: red;
-	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 55px;
+	flex-grow: 2;
 }
 
 .header .logo img {
@@ -24,14 +30,14 @@ html , body {
 }
 
 .header .menu {
-	height: 100%;
-	background-color: blue;
-	flex-grow: 2;
+	flex-grow: 3;
 }
 
 .header .profile {
-	background-color: yellow;
-	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 4;
 }
 .btn-gototop {
 	position: fixed;
@@ -39,4 +45,41 @@ html , body {
 	bottom: 30px;
 	right: 30px;
 	background: #FF0000;
+}
+
+/* -----------------------------------------profile */
+.header .profile .profile-wrap-avatar > img {
+	width: 35px;
+	height: 35px;
+}
+
+.header .profile > p {
+	font-size: 22px;
+	margin-left: 15px;
+	color: #444;
+}
+.header .profile .profile-wrap-avatar {
+	margin-right: 20px;
+}
+.header .profile .profile-wrap-cart {
+	position: relative;
+}
+
+.header .profile .profile-wrap-cart > img {
+	width: 30px;
+	height: 30px;
+}
+
+.header .profile .profile-wrap-cart .cart-amount {
+	position: absolute;
+	text-align: center;
+	top: -7px;
+	right: -7px;
+	padding: 4px;
+	width: 15px;
+	height: 15px;
+	background-color: black;
+	color: white;
+	box-sizing: content-box;
+	border-radius: 50%;
 }

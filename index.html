@@ -1,69 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>Home Page</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="./css/home-css.css">
 	<link rel="stylesheet" href="./css/menu-component.css">
-	<script src="https://kit.fontawesome.com/cb451b55e3.js" crossorigin="anonymous"></script>
-	<title>Home Page</title>
+	<script src="./javascript/menu-component.js" ></script>
+	<script src="./javascript/home.js" ></script>
+	<script src="https://kit.fontawesome.com/cb451b55e3.js" crossorigin="anonymous"></script>	
 </head>
 <body>
 	<div class="header">
 		<div class="logo">
-			<image src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/logo-dark.png"></image>
+			<div>
+				<image src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/logo-dark.png" alt="no"></image>
+			</div>
 		</div>
 		<div class="menu">
 			<ul class="menu-list">
 			    <li class="menu-items">
 				    <a class="menu-item-a" href="#">Home</a>
 				    <i class="fas fa-chevron-down"></i>
-				    <ul class="sub-menu">
+				    <ul class="sub-menu home-elements">
 				    	<li class="sub-menu-item">
-				    		<a href="#">home1</a>
+				    		<a href="#">home 1</a>
 				    	</li>
 				    	<li class="sub-menu-item">
-				    		<a href="#">home1</a>
+				    		<a href="#">home 2</a>
 				    	</li>
 				    	<li class="sub-menu-item">
-				    		<a href="#">home1</a>
+				    		<a href="#">home 3</a>
 				    	</li>
 				    	<li class="sub-menu-item">
-				    		<a href="#">home1</a>
+				    		<a href="#">home 4</a>
 				    	</li>
 				    	<li class="sub-menu-item">
-				    		<a href="#">home1</a>
+				    		<a href="#">home 5</a>
 				    	</li>
 				    	<li class="sub-menu-item">
-				    		<a href="#">home1</a>
+				    		<a href="#">home 6 (medical)</a>
 				    	</li>
 				    	<li class="sub-menu-item">
-				    		<a href="#">home1</a>
+				    		<a href="#">home 7 (furniture)</a>
 				    	</li>
 				    	<li class="sub-menu-item">
-				    		<a href="#">home1</a>
+				    		<a href="#">home8</a>
 				    	</li>
 				    	<li class="sub-menu-item">
-				    		<a href="#">home1</a>
+				    		<a href="#">home9</a>
 				    	</li>
 				    </ul>
 			    </li>
 			    <li class="menu-items">
-				    <a class="menu-item-a" href="#">Home</a>
+				    <a class="menu-item-a" href="#">Shop</a>
 				    <i class="fas fa-chevron-down"></i>
+				    <ul class="sub-menu shop">
+				    	<li class="shop-category">
+				    		<div class="title">
+				    			<a href="#">Shop Features</a>
+				    		</div>
+				    		<ul class="sub-menu shop-sub">
+				    			<li class="sub-menu-item">
+				    				<a href="#">Grid View</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">List View</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Sidibar Right</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Sidibar Left</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Full Width</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Load Mode</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Infinity Scroll</a>
+				    			</li>
+				    		</ul>
+				    	</li>
+				    	<li class="shop-category">
+				    		<div class="title">
+				    			<a href="#">Shop Styles</a>
+				    		</div>
+				    		<ul class="sub-menu shop-sub">
+				    			<li class="sub-menu-item">
+				    				<a href="#">style 1</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">style 2</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">style 3</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">style 4</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">style 5</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">style 6</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">style 7</a>
+				    			</li>
+				    		</ul>
+				    	</li>
+				    	<li class="shop-category">
+				    		<div class="title">
+				    			<a href="#">Product Features</a>
+				    		</div>
+				    		<ul class="sub-menu shop-sub">
+				    			<li class="sub-menu-item">
+				    				<a href="#">Single Product 1</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Single Product 2</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Single Product 3</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Variable Product</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Grouped Product</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Left Thumbnail</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Right Thumbnail</a>
+				    			</li>
+				    		</ul>
+				    	</li>
+				    </ul>
 			    </li>
 			    <li class="menu-items">
-				    <a class="menu-item-a" href="#">Home</a>
+				    <a class="menu-item-a" href="#">Pages</a>
 				    <i class="fas fa-chevron-down"></i>
+				    <ul class="sub-menu pages-blog">
+				    	<li>
+				    		<ul class="sub-menu pages-blog-sub">
+				    			<li class="sub-menu-item">
+				    				<a href="#">About Us</a>
+						    	</li>
+						    	<li class="sub-menu-item">
+						    		<a href="#">FQA</a>
+						    	</li>
+						    	<li class="sub-menu-item">
+						    		<a href="#">Error 404</a>
+						    	</li>
+						    	<li class="sub-menu-item">
+						    		<a href="#">Search Result</a>
+						    	</li>
+				    		</ul>
+				    	</li>
+				    	<li>
+				    		<ul class="sub-menu pages-blog-sub">
+				    			<li class="sub-menu-item">
+				    				<a href="#">My Account</a>
+						    	</li>
+						    	<li class="sub-menu-item">
+						    		<a href="#">Wishlist</a>
+						    	</li>
+						    	<li class="sub-menu-item">
+						    		<a href="#">Cart</a>
+						    	</li>
+						    	<li class="sub-menu-item">
+						    		<a href="#">Checkout</a>
+						    	</li>
+				    		</ul>
+				    	</li>
+				    </ul>
+			    </li>
+			    <li class="menu-items">
+				    <a class="menu-item-a" href="#">Elements</a>
+				    <i class="fas fa-chevron-down"></i>
+				    <ul class="sub-menu home-elements element-private">
+				    	<li class="sub-menu-item">
+				    		<a href="#">Accordion</a>
+				    	</li>
+				    	<li class="sub-menu-item next">
+				    		<a href="#">Post</a>
+				    		<i class="fas fa-angle-right"></i>
+				    		<ul class="sub-menu sub">
+				    			<li class="sub-menu-item">
+				    				<a href="#">Post-Style 1</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Post-Style 2</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Post-Style 3</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Post-Style 4</a>
+				    			</li>
+				    		</ul>
+				    	</li>
+				    	<li class="sub-menu-item">
+				    		<a href="#">Product Slider</a>
+				    	</li>
+				    	<li class="sub-menu-item">
+				    		<a href="#">Product List</a>
+				    	</li>
+				    	<li class="sub-menu-item next">
+				    		<a href="#">Product Isotope</a>
+				    		<i class="fas fa-angle-right"></i>
+				    		<ul class="sub-menu sub isotope">
+				    			<li class="sub-menu-item">
+				    				<a href="#">Product Isotope 1</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Product Isotope 2</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Product Isotope 3</a>
+				    			</li>
+				    		</ul>
+
+				    	</li>
+				    	<li class="sub-menu-item next">
+				    		<a href="#">Product Fulllscreen</a>
+				    		<i class="fas fa-angle-right"></i>
+				    		<ul class="sub-menu sub fullscreen">
+				    			<li class="sub-menu-item">
+				    				<a href="#">Product Fulllscreen 1</a>
+				    			</li>
+				    			<li class="sub-menu-item">
+				    				<a href="#">Product Fulllscreen 2</a>
+				    			</li>
+				    		</ul>
+				    	</li>
+				    	<li class="sub-menu-item">
+				    		<a href="#">Section Title</a>
+				    	</li>
+				    	<li class="sub-menu-item">
+				    		<a href="#">Logo Slider</a>
+				    	</li>
+				    	<li class="sub-menu-item">
+				    		<a href="#">Video</a>
+				    	</li>
+				    	<li class="sub-menu-item">
+				    		<a href="#">Goodgle Map</a>
+				    	</li>
+				    </ul>
+			    </li>
+			    <li class="menu-items">
+				    <a class="menu-item-a" href="#">Blog</a>
+				    <i class="fas fa-chevron-down"></i>
+				    <ul class="sub-menu pages-blog">
+				    	<li>
+				    		<ul class="sub-menu pages-blog-sub">
+				    			<li class="sub-menu-item">
+				    				<a href="#">Blog Layout 1</a>
+						    	</li>
+						    	<li class="sub-menu-item">
+						    		<a href="#">Blog Layout 2</a>
+						    	</li>
+						    	<li class="sub-menu-item">
+						    		<a href="#">Blog Layout 3</a>
+						    	</li>
+						    	<li class="sub-menu-item">
+						    		<a href="#">Single Post</a>
+						    	</li>
+				    		</ul>
+				    	</li>
+				    	<li>
+				    		<ul class="sub-menu pages-blog-sub">
+				    			<li class="sub-menu-item">
+				    				<a href="#">Blog FullWidth</a>
+						    	</li>
+						    	<li class="sub-menu-item">
+						    		<a href="#">Blog Sidebar</a>
+						    	</li>
+						    	<li class="sub-menu-item">
+						    		<a href="#">Blog FullWidth</a>
+						    	</li>
+						    	<li class="sub-menu-item">
+						    		<a href="#">Blog Sidebar</a>
+						    	</li>
+				    		</ul>
+				    	</li>
+				    </ul>
+			    </li>
+			    <li class="menu-items">
+				    <a class="menu-item-a" href="#">Contact</a>
 			    </li>
 			</ul>
 		</div>
 		<div class="profile">
-		</div>
+			<div class="profile-wrap-avatar">
+				<image src="./image/person.svg"></image>
+			</div>
+			<div class="profile-wrap-cart">
+				<image src="./image/cart.svg"></image>
+				<div class="cart-amount">0</div>
+			</div>
+			<p>$0.00</p>
+		</div>	
 	</div>
 	<div class="body"></div>
 	<div class="footer"></div>
-	<button class="btn-gototop">
+	<button class="btn-gototop" id="a">
 		<i class="fas fa-angle-double-up"></i>
 	</button>
 </body>
