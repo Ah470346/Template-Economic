@@ -8,7 +8,7 @@ $(document).ready(function() {
 			active = 1;
 		} else if($(window).scrollTop() < 350 && active === 1) {
 			$(".header").slideUp(100,function(){
-				$(".header").css({'position':'static','display': 'flex'
+				$(".header").css({'position':'absolute','display': 'flex'
 							, 'box-shadow':'none'});
 			});
 			active = 0;
