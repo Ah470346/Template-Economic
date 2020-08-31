@@ -1,0 +1,74 @@
+
+.sidebar header {
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+	line-height: 18px;
+	background-color: #111;
+	color: white;
+	font-size: 22px;
+}
+.sidebar header i {
+	margin-right: 12px;
+}
+
+.sidebar .sidebar-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.sidebar-list-item {
+	position: relative;
+	
+}
+
+.sidebar .sidebar-list .sidebar-list-item  a {
+	position: relative;
+	display: block;
+	line-height: 52px;
+	text-decoration: none;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	color: #444;
+	text-transform: capitalize;
+	padding-left: 30px;
+	font-size: 15px;
+	transition: all .3s ease;
+}
+
+.sidebar .sidebar-list .sidebar-list-item a > i {
+	position: absolute;
+	color: #666;
+	top: calc(50% - 8px);
+	right: 20px;
+	transition: all 0.3s;
+}
+
+.sidebar .sidebar-list .sidebar-list-item .sidebar-sub-menu {
+	padding: 0;
+	pointer-events: none;
+	opacity: 0;
+	list-style: none;
+	width: 300px;
+	position: absolute;
+	top: 0;
+	right: -310px;
+	background-color: #f9f9f9;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-top: 0;
+	transition: opacity 0.3s, right 0.3s;
+}
+
+
+.sidebar .sidebar-list .sidebar-list-item a:hover {
+	background-color: #f0f0f0;
+}
+
+.sidebar .sidebar-list .sidebar-list-item:hover .sidebar-sub-menu {
+	pointer-events: visible;
+	opacity: 1;
+	right: -300px;
+}
+
+.sidebar .sidebar-list .sidebar-list-item a:hover  i {
+	right: 10px;
+}
