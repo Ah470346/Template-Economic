@@ -105,6 +105,7 @@ body {
 	grid-template-columns:  calc(25% - 15px) calc(25% - 15px) 
 							calc(25% - 15px) calc(25% - 15px);
 	grid-template-rows: auto 400px;
+	color: #444;
 }
 .body .sidebar {
 	background-color: #f9f9f9;
@@ -113,7 +114,10 @@ body {
 
 .body .slide-sale {
 	grid-column: 2/5;
-	border: 1px solid black;
+	display: grid;
+	grid-template-columns: 100%;
+	row-gap: 20px;
+	grid-template-rows: 62px calc(100% - 82px);
 }
 
 .body .women {	
