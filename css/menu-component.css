@@ -63,6 +63,7 @@
   background-color: #fff;
   box-shadow: 0 1.5px 2px #555;
   transition: height 0.2s;
+  z-index: 111;
 
 }
 
