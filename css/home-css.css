@@ -104,7 +104,7 @@ body {
 	row-gap: 20px;
 	grid-template-columns:  calc(25% - 15px) calc(25% - 15px) 
 							calc(25% - 15px) calc(25% - 15px);
-	grid-template-rows: auto 400px;
+	grid-template-rows: auto 305px;
 	color: #444;
 }
 .body .sidebar {
@@ -122,10 +122,8 @@ body {
 
 .body .women {	
 	grid-column: 1/3;
-	border: 1px solid black;
 }
 
 .body .men {
 	grid-column: 3/5;
-	border: 1px solid black;
 }
