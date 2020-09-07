@@ -104,7 +104,7 @@ body {
 	row-gap: 20px;
 	grid-template-columns:  calc(25% - 15px) calc(25% - 15px) 
 							calc(25% - 15px) calc(25% - 15px);
-	grid-template-rows: auto 305px;
+	grid-template-rows: auto 305px 200px 900px 150px;
 	color: #444;
 }
 .body .sidebar {
@@ -126,4 +126,26 @@ body {
 
 .body .men {
 	grid-column: 3/5;
+}
+
+.body .trendy-product{
+	grid-column: 1/5;
+	border: 1px solid black;
+}
+
+.body .products{
+	grid-column: 1/5;
+	border: 1px solid black;
+	display: grid;
+	column-gap: 30px;
+	row-gap: 30px;
+	grid-template-columns:  calc(25% - 22.5px) calc(25% - 22.5px) 
+							calc(25% - 22.5px) calc(25% - 22.5px);
+
+	grid-template-rows: calc(33.33% - 22px) calc(33.33% - 22px) calc(33.33% - 22px);
+}
+
+.body .view-all-products {
+	grid-column: 1/5;
+	border: 1px solid black;
 }
