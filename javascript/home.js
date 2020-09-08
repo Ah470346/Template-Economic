@@ -47,3 +47,4 @@ $(document).ready(function() {
 		$(this).find('a').find('span').css('visibility', 'visible');
 	});
 });
+
