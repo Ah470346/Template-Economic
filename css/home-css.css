@@ -127,12 +127,61 @@ body {
 .body .men {
 	grid-column: 3/5;
 }
-
+/* ----------------------------------------------------trendy-product */
 .body .trendy-product{
 	grid-column: 1/5;
-	border: 1px solid black;
+	display: flex;
+	justify-content: center;
 }
 
+.trendy-product .trendy-product-content {
+	position: relative;
+	display: inline-block;
+	margin-top: 75px;
+	text-align: center;
+}
+
+.trendy-product .trendy-product-content p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 1.8em;
+	color: black;
+}
+
+.trendy-product .trendy-product-content .trendy-product-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	margin-top: 15px;
+	margin-left: 35px;
+}
+
+.trendy-product .trendy-product-list-item {
+	margin-right: 35px;
+}
+
+.trendy-product .trendy-product-list-item a{
+	position: relative;
+	text-decoration: none;
+	display: block;
+	font-size: 1.1em;
+	padding: 15px 0;
+	color: #888;
+}
+
+.trendy-product .trendy-product-list-item a span {
+	position: absolute;
+	visibility: hidden;
+	bottom: 0;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background: #000;
+}
+	
+/* --------------------------------------------------------- */
 .body .products{
 	grid-column: 1/5;
 	border: 1px solid black;

@@ -33,3 +33,17 @@ $(document).ready(function() {
 		$("#sub").css('display', 'none');
 	});
 });
+
+
+//----------------------------------------transition trendy products
+$(document).ready(function() {
+	var li = document.getElementsByClassName("trendy-product-list-item");
+	$(".trendy-product-list-item").click(function(event) {
+		for(var i = 0 ; i < li.length ; i++){
+			$(li[i]).find('a').css('color', '#888');
+			$(li[i]).find('a').find('span').css('visibility', 'hidden');
+		}
+		$(this).find('a').css('color', '#000');
+		$(this).find('a').find('span').css('visibility', 'visible');
+	});
+});
