@@ -3,7 +3,7 @@
 }
 html , body {
 	margin: 0;
-	height: 3000px;
+	height: 5000px;
 	font-family: Arial , sans-serif;
 	font-size: 16px;
 }
@@ -189,7 +189,7 @@ body {
 	visibility: visible;
 } 
 	
-/* --------------------------------------------------------- */
+/* --------------------------------------------------------- body produc and view-all-product */
 .body .products{
 	grid-column: 1/5;
 	display: grid;
@@ -235,4 +235,78 @@ body {
 
 .body .view-all-products .view-all-products-wrap a:hover::after {
 	width: 100%;
+}
+
+/* ------------------------------------------------------------image background fixed */
+
+.wrap-information-sale {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	width: 100%;
+	height: 450px;
+	background-image: url("https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/02/bench-accounting-scaled.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-attachment: fixed;
+}
+.wrap-information-sale .information-sale{
+	max-width: 1300px;
+	width: 100%;
+}
+
+.wrap-information-sale .information-sale h1 {
+	font-size: 2.2em;
+	line-height: 1.3;
+}
+
+.wrap-information-sale .information-sale p {
+	color: #000;
+	line-height: 1.8;
+}
+
+.wrap-information-sale .information-sale a {
+	margin-top: 20px;
+	display: inline-block;
+	padding: 17px 35px;
+	background-color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	transition: all .4s;
+	border-radius: 3px;
+}
+
+.wrap-information-sale .information-sale a:hover{
+	background: #000;
+	color: #fff;
+}
+
+/* --------------------------------------------------------- body-2 */
+
+.body-2 {
+	max-width: 1300px;
+	width: 100%;
+	margin-top: 100px;
+	display: grid;
+	column-gap: 30px;
+	row-gap: 30px;
+	grid-template-columns:  calc(16.666% - 25px) calc(16.666%  - 25px) 
+							calc(16.666%  - 25px) calc(16.666%  - 25px)
+							calc(16.666%  - 25px) calc(16.666%  - 25px);
+	grid-template-rows: 450px;
+	color: #444;
+}
+.body-2 .outstanding-products-left {
+	grid-column: 1/4;
+	border: 1px solid black;
+}
+
+.body-2 .outstanding-products-right {
+	grid-column: 4/7;
+	border: 1px solid black;
 }
