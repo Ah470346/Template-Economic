@@ -346,8 +346,8 @@ body {
 
 .instagram {
 	position: relative;
+	display: flex;
 	margin-top: 80px;
 	width: 100%;
 	height: 180px;
-	border: 1px solid black;
 }
