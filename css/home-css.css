@@ -299,7 +299,7 @@ body {
 	grid-template-columns:  calc(16.666% - 25px) calc(16.666%  - 25px) 
 							calc(16.666%  - 25px) calc(16.666%  - 25px)
 							calc(16.666%  - 25px) calc(16.666%  - 25px);
-	grid-template-rows: 500px;
+	grid-template-rows: 500px 70px 300px;
 	color: #444;
 }
 .body-2 .outstanding-products.left {
@@ -314,3 +314,33 @@ body {
 	padding-left: 10px;
 	padding-right: 20px;
 }
+
+.body-2 .inspirational-posts {
+	grid-column: 1/7;
+	position: relative;
+}
+
+.body-2 .inspirational-posts h1 {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0px;
+	margin: 0;
+	font-size: 1.7em;
+	color: #000;
+}
+
+.body-2 .posts-item.left {
+	grid-column: 1/3;
+	border: 1px solid black;
+} 
+
+.body-2 .posts-item.center {
+	grid-column: 3/5;
+	border: 1px solid black;
+} 
+
+.body-2 .posts-item.right {
+	grid-column: 5/7;
+	border: 1px solid black;
+} 
