@@ -1,0 +1,65 @@
+.posts-item {
+	border-radius: 5px 5px 0 0;
+}
+
+.posts-item .image {
+	position: relative;
+	overflow: hidden;
+}
+
+.posts-item a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+}
+
+.posts-item .a1 {
+	color: #666;
+	font-size: 0.9em;
+	margin-top: 25px;
+}
+
+.posts-item .a2 h3 {
+	font-size: 1.4em;
+	margin: 0;
+	margin-top: 15px;
+}
+
+.posts-item .date {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	left: 25px;
+	bottom: 30px;
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	background: #fff;
+	color: #000;
+	transition: all 0.5s ease-out;
+
+}
+
+.posts-item .date p {
+	margin: 0;
+}
+
+.posts-item .date p:last-child {
+	font-weight: bold;
+}
+
+.posts-item .image img {
+	border-radius: 5px 5px 5px 5px;
+	transition: all 0.5s ease-out;
+}
+
+.posts-item .image:hover img {
+	transform: scale(1.1, 1.1) rotateZ(4deg);
+}
+
+.posts-item .image:hover .date {
+	background: #000;
+	color: #fff;
+}
