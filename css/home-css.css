@@ -351,3 +351,71 @@ body {
 	width: 100%;
 	height: 180px;
 }
+
+/* --------------------------------------------------subcribe */
+
+.subscribe {
+	display: flex;
+	align-items: center;
+	margin: 30px 0;
+	max-width: 1300px;
+	width: 100%;
+	height: 180px;
+}
+
+.subscribe .contain {
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.subscribe .contain h3 {
+	margin: 0;
+	color: black;
+	font-size: 1.9em;
+	margin-right: 20px;
+}
+
+.subscribe .contain .email-input {
+	width: 445px;
+	height: 50px;
+	border-radius: 30px;
+	margin-right: 15px;
+}
+
+.subscribe .contain .email-input input {
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+	padding-left: 25px;
+	font-size: 0.9em;
+	color: #666;
+	border: none;
+	background-color: #efefef;
+}
+
+
+.subscribe .contain .btn-subscribe {
+	width: 160px;
+	height: 50px;
+	border-radius: 30px;
+}
+
+.subscribe .contain .btn-subscribe button {
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+	font-weight: bold;
+	background-color: #000;
+	color: white;
+	font-size: 1em;
+	border: none;
+	transition: all .4s;
+}
+
+.subscribe .contain .btn-subscribe button:hover {
+	opacity: 0.7;
+}
+
+
