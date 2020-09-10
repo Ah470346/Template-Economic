@@ -299,7 +299,7 @@ body {
 	grid-template-columns:  calc(16.666% - 25px) calc(16.666%  - 25px) 
 							calc(16.666%  - 25px) calc(16.666%  - 25px)
 							calc(16.666%  - 25px) calc(16.666%  - 25px);
-	grid-template-rows: 500px 70px 400px;
+	grid-template-rows: 500px 70px auto;
 	color: #444;
 }
 .body-2 .outstanding-products.left {
@@ -332,15 +332,12 @@ body {
 
 .body-2 .posts-item.left {
 	grid-column: 1/3;
-	border: 1px solid black;
 } 
 
 .body-2 .posts-item.center {
 	grid-column: 3/5;
-	border: 1px solid black;
 } 
 
 .body-2 .posts-item.right {
 	grid-column: 5/7;
-	border: 1px solid black;
 } 
