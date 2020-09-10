@@ -1,0 +1,68 @@
+.outstanding-products .padding-contain {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding-left: 100px;
+}
+
+.outstanding-products.left .padding-contain .image {
+	width: 100%;
+	height: 100%;
+	background-image: url('https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/p81.jpg');
+}
+
+.outstanding-products.right .padding-contain .image {
+	width: 100%;
+	height: 100%;
+	background-image: url('https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/p82.jpg');
+}
+
+.outstanding-products.left .padding-contain .contain-text {
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+}
+
+.outstanding-products.right .padding-contain .contain-text {
+	position: absolute;
+	left: 0;
+	top: 25px;
+}
+
+.outstanding-products .padding-contain .contain-text h1 {
+	line-height: 1.2;
+	font-size: 1.87em;
+	margin: 0;
+}
+
+.outstanding-products .padding-contain .contain-text p {
+	margin: 0;
+	margin-top: 15px;
+}
+
+.outstanding-products .padding-contain .contain-text a {
+	position: relative;
+	margin-top: 40px;
+	display: inline-block;
+	padding-bottom: 17px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+.outstanding-products .padding-contain .contain-text a::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 35%;
+	height: 2px;
+	background-color: #000;
+	transition: all .3s;
+
+}
+
+.outstanding-products .padding-contain .contain-text a:hover::after {
+	width: 100%;
+}
