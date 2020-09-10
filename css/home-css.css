@@ -341,3 +341,13 @@ body {
 .body-2 .posts-item.right {
 	grid-column: 5/7;
 } 
+
+/* ---------------------------------------------- instagram */
+
+.instagram {
+	position: relative;
+	display: flex;
+	margin-top: 80px;
+	width: 100%;
+	height: 180px;
+}

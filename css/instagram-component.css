@@ -1,0 +1,118 @@
+.instagram .instagram-link {
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	padding: 17px 20px;
+	left: 50%;
+	color: black;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	font-size: 0.95em;
+	z-index: 12;
+	transition: all .3s;
+}
+
+.instagram .instagram-link:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.instagram .instagram-link i {
+	margin-right: 2px;
+}
+
+.instagram p {
+	margin: 0;
+}
+
+.instagram .instagram-image {
+	position: relative;
+	width: 12.5%;
+	height: 100%;
+}
+
+.instagram .instagram-image a {
+	position: relative;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+.instagram .instagram-image div {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0);
+	transition: all .4s;
+}
+
+.instagram .instagram-image i {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	color: white;
+	font-size: 4em;
+	z-index: 11;
+	transform: translate(-50%, -50%);
+	transition: all .4s;
+	opacity: 0;
+}
+
+.instagram .a1 {
+	background-image: url("https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56173397_2333889243602027_1382586786035155535_nfull.jpg");
+
+}
+
+.instagram .a2 {
+	background-image: url("https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56919342_315602099121014_7632816124131877681_nfull.jpg");
+}
+
+.instagram .a3 {
+	background-image: url("https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56380334_837224356625987_3345785388063580316_nfull.jpg");
+}
+
+.instagram .a4 {
+	background-image: url("https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/55776561_135362080921813_4282608881904082123_nfull.jpg");
+}
+
+.instagram .a5 {
+	background-image: url("https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56770831_1041832976002602_3665736873029157732_nfull.jpg");
+}
+
+.instagram .a6 {
+	background-image: url("https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56402205_2150515395036509_5313044764177222827_nfull.jpg");
+}
+
+.instagram .a7 {
+	background-image: url("https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56372284_349144015713992_3306810093832259788_nfull.jpg");
+}
+
+.instagram .a8 {
+	background-image: url("https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56331138_673596093074889_3078595201338257675_nfull.jpg");
+}
+
+.instagram .instagram-image:hover div {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.instagram .instagram-image:hover i {
+	top: 50%;
+	font-size: 3em;
+	opacity: 1;
+}
+
+
+
+
+
+
