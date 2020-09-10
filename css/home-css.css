@@ -299,7 +299,7 @@ body {
 	grid-template-columns:  calc(16.666% - 25px) calc(16.666%  - 25px) 
 							calc(16.666%  - 25px) calc(16.666%  - 25px)
 							calc(16.666%  - 25px) calc(16.666%  - 25px);
-	grid-template-rows: 500px 70px 300px;
+	grid-template-rows: 500px 70px 400px;
 	color: #444;
 }
 .body-2 .outstanding-products.left {
