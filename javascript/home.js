@@ -6,8 +6,12 @@ $(document).ready(function() {
 			$(".header").css({'position':'fixed','display': 'none'
 							, 'box-shadow':'0 1px 2px #999','z-index':'1'});
 			$(".header").slideDown(300);
+			$(".btn-gototop").css('visibility', 'visible');
+			$(".btn-gototop").animate({bottom: '50px'},250);
+			$(".btn-gototop").animate({bottom: '30px'},250);
 			active = 1;
 		} else if($(window).scrollTop() < 350 && active === 1) {
+			$(".btn-gototop").css('visibility', 'hidden');
 			$(".header").slideUp(100,function(){
 				$(".header").css({'position':'absolute','display': 'flex'
 							, 'box-shadow':'none','z-index':'0'});
@@ -48,3 +52,10 @@ $(document).ready(function() {
 	});
 });
 
+
+// -------------------------------------------------scroll to top
+$(document).ready(function() {
+	$(".btn-gototop").click(function(event) {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	});
+});
