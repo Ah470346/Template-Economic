@@ -14,7 +14,7 @@ $(document).ready(function() {
 			$(".btn-gototop").css('visibility', 'hidden');
 			$(".header").slideUp(100,function(){
 				$(".header").css({'position':'absolute','display': 'flex'
-							, 'box-shadow':'none','z-index':'0'});
+							, 'box-shadow':'none'});
 			});
 			active = 0;
 		}
